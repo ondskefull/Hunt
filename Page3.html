@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<link rel="stylesheet" href="mall1.css">
+
+<title>Hunt - weapon traits finder</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+<div class="navbar">
+  <a href="index.html"><img src="home3.png" alt="Home button" height="25" width="25"></a>
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+  <input type="text" placeholder="Search..">
+</div>
+
+<div class="tree">
+  <a href="unlock-tree.html"><img src="tree-icon.png" alt="Weapon tree" height="40" width="40">
+  </a>
+</div>
+
+<div class="header">
+  <h1>Hunt: Trait Finder</h1>
+  <p>Find wich traits suits your weapon.</p>
+  <a href="index.html"><img src="hunt_logo.jpg" alt="Test image for hunt" height="200" width="500">
+</a>
+</div>
+
+<div class="row">
+  <div class="side">
+  	<input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+
+<ul id="myMenu">
+  <li><a href="#">Bomb Lance</a></li>
+  <li><a href="#">Caldwell Pax</a></li>
+  <li><a href="#">Deadeye Scopesmith</a></li>
+  <li><a href="#">PHP</a></li>
+  <li><a href="#">Python</a></li>
+  <li><a href="#">jQuery</a></li>
+  <li><a href="#">SQL</a></li>
+  <li><a href="#">Bootstrap</a></li>
+  <li><a href="#">Node.js</a></li>
+</ul>
+
+  <h4>Maybe Weapon</h4>
+  <p>Should I make every weapon here as a link lined up from top to buttom.</p>
+  <h4>Next idea here</h4>
+  <p> could make a few sub pages</p>
+</div>
+  
+
+  <div class="main">
+  	<h2>Search Weapon or Trait and get the associated item</h2>
+<input id='myInput' onkeyup='searchTable()' type='text' placeholder='Search..'>
+
+<table class="tb" id="myTable">
+  <tr>
+    <th>Weapon</th>
+    <th>Trait 1</th>
+    <th>Trait 2</th>
+    <th>Trait 3</th>
+    <th>Trait 4</th>
+  </tr>
+  <tr>
+    <td>Berthier Mle 1892</td>
+    <td>Bulletgrabber</td>
+    <td>Iron Sharpshooter</td>
+    <td>Steady Aim</td> 
+  </tr>
+  <tr>
+    <td><li>Bomb Lance</li></td>
+    <td>Bulwark</td>
+    <td>Conduit</td>
+    <td>Adrenalin</td>
+  </tr>
+  <tr>
+    <td>Bornheim No. 3</td>
+    <td>Bulletgrabber</td>
+    <td>Ambidextrous</td>
+    <td></td> 
+  </tr> 
+  <tr>
+    <td>Bow</td>
+    <td>Blade Seer</td>
+    <td>Dewclaw</td>
+    <td>Hundred Hands</td> 
+  </tr> 
+  <tr>
+    <td>Caldwell 92 New Army</td>
+    <td>Ambidextrous</td> 
+    <td></td>
+    <td></td>
+  </tr> 
+  <tr>
+    <td>Caldwell Conversion Pistol</td>
+    <td>Ambidextrous</td>
+    <td>Fanning</td>
+    <td></td>
+    <td></td> 
+  </tr> 
+  <tr>
+    <td>Caldwell Pax</td>
+    <td>Ambidextrous</td>
+    <td>Fanning</td>
+    <td></td>
+    <td></td> 
+  </tr> 
+  <tr>
+    <td>Caldwell Rival 78</td>
+    <td>/NA</td> 
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr> 
+  <tr>
+    <td>Cavalry Saber</td>
+    <td>Conduit</td> 
+    <td>Adrenalin</td>
+    <td></td>
+    <td></td>
+  </tr> 
+  <tr>
+    <td>Combat Axe</td>
+    <td>Conduit</td>
+    <td>Adrenalin</td>
+    <td></td>
+    <td></td> 
+  </tr> 
+  <tr>
+    <td>Crossbow</td>
+    <td>Blade Seer</td>
+    <td></td>
+    <td></td>
+    <td></td> 
+  </tr> 
+  <tr>
+    <td>Crown & King Auto-5</td>
+    <td>/NA</td>
+    <td></td>
+    <td></td>
+    <td></td> 
+  </tr> 
+  <tr>
+    <td>Dolch 96</td>
+    <td>Bulletgrabber</td>
+    <td></td>
+    <td></td>
+    <td></td> 
+  </tr> 
+  <tr>
+    <td>Lebel 1886</td>
+    <td>Bulletgrabber</td>
+    <td>Iron Sharpshooter</td>
+    <td>Marksman Scopesmith</td>
+    <td>Steady Aim</td> 
+  </tr> 
+  <tr>
+    <td>LeMat Mark II Revolver</td>
+    <td>Ambidextrous</td>
+    <td>Fanning</td>
+    <td></td>
+    <td></td> 
+  </tr> 
+  <tr>
+    <td>Machete</td>
+    <td>Adrenalin</td>
+    <td>Conduit</td>
+    <td></td>
+    <td></td> 
+  </tr> 
+  <tr>
+    <td>Martini-Henry IC1</td>
+    <td>Iron Sharpshooter</td>
+    <td>Marksman Scopesmith</td>
+    <td>Steady Aim</td>
+    <td></td> 
+  </tr>
+  <tr>
+    <td>Mosin-Nagant M1891</td>
+    <td>Bulletgrabber</td>
+    <td>Iron Sharpshooter</td>
+    <td>Sniper Scopesmith</td>
+    <td>Steady Aim</td> 
+  </tr>
+  <tr>
+    <td>Nagant M1895</td>
+    <td>Ambidextrous</td>
+    <td>Fanning</td>
+    <td></td>
+    <td></td> 
+  </tr> 
+  <tr>
+    <td>Nagant M1895 Officer</td>
+    <td>Ambidextrous</td>
+    <td>Fanning</td>
+    <td></td>
+    <td></td> 
+  </tr> 
+  <tr>
+    <td>Nitro Express Rifle</td>
+    <td>Steady Aim</td>
+    <td></td>
+    <td></td>
+    <td></td> 
+  </tr> 
+  <tr>
+    <td>Romero 77</td>
+    <td>/NA</td>
+    <td></td>
+    <td></td>
+    <td></td> 
+  </tr> 
+  <tr>
+    <td>Scottfield Model 3</td>
+    <td>Ambidextrous</td>
+    <td>Fanning</td>
+    <td></td>
+    <td></td> 
+  </tr> 
+  <tr>
+    <td>Sparks LRR</td>
+    <td>Iron Sharpshooter</td>
+    <td>Sniper Scopesmith</td>
+    <td>Steady Aim</td>
+    <td></td> 
+  </tr> 
+  <tr>
+    <td>Specter 1882</td>
+    <td>Bulletgrabber</td>
+    <td>Iron Devastator</td>
+    <td></td>
+    <td></td> 
+  </tr> 
+  <tr>
+    <td>Springfield 1866</td>
+    <td>Iron Sharpshooter</td>
+    <td>Marksman Scopesmith"</td>
+    <td>Steady Aim</td>
+    <td></td> 
+  </tr> 
+  <tr>
+    <td>Vetterli 71 Karabiner</td>
+    <td>Iron Sharpshooter</td>
+    <td>Steady Aim</td>
+    <td>Marksman Scopesmith</td>
+    <td></td> 
+  </tr> 
+  <tr>
+    <td>Winfield 1887 Terminus</td>
+    <td>Bulletgrabber</td>
+    <td>Iron Repeater</td>
+    <td>Levering</td>
+    <td></td> 
+  </tr> 
+  <tr>
+    <td>Winfield 1893 Slate</td>
+    <td>Iron Devastator</td>
+    <td></td>
+    <td></td>
+    <td></td> 
+  </tr> 
+  <tr>
+    <td>Winfield M1873</td>
+    <td>Iron Repeater</td>
+    <td>Levering</td>
+    <td>Marksman Scopesmith</td>
+    <td>Steady Aim</td> 
+  </tr> 
+  <tr>
+    <td>Winfield M1873C</td>
+    <td>Iron Repeater</td>
+    <td>Levering</td>
+    <td>Steady Aim</td>
+    <td></td> 
+  </tr> 
+  <tr>
+    <td>Winfield M1876 Centennial</td>
+    <td>Iron Repeater</td>
+    <td>Levering</td>
+    <td>Sniper Scopesmith</td>
+    <td>Steady Aim</td> 
+  </tr> 
+</table>
+
+  </div>
+ </div>
+
+<script>
+function myFunction() {
+  // Declare variables
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("mySearch");
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myMenu");
+  li = ul.getElementsByTagName("li");
+
+  // Loop through all list items, and hide those who don't match the search query
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+</script>
+
+
+<p>This website have the Weapons and Traits associated with each other from the game Hunt:Showdown:</p>
+<ul>
+<li>Find Weapons in Hunt:Showdown</li>
+<li>Each trait that works well with that weapon will be listed</li>
+<li>Work in progress</li>
+</ul>
+
+<style>
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 50%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+</style>
+
+
+
+<script>
+function searchTable() {
+    var input, filter, found, table, tr, td, i, j;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    table = document.getElementById("myTable");
+    tr = table.getElementsByTagName("tr");
+    for (i = 0; i < tr.length; i++) {
+        td = tr[i].getElementsByTagName("td");
+        for (j = 0; j < td.length; j++) {
+            if (td[j].innerHTML.toUpperCase().indexOf(filter) > -1) {
+                found = true;
+            }
+        }
+        if (found) {
+            tr[i].style.display = "";
+            found = false;
+        } else {
+            tr[i].style.display = "none";
+        }
+    }
+}
+</script>
+
+
+
+<p>Packmule
+Physician
+Pitcher
+Poacher
+Poison Sense
+Quatermaster
+Resilience
+Salveskin
+Serpent
+Silent Killer
+Sniper Scopesmith
+Steady Aim
+Steady Hand
+Tomahawk
+Vigilant
+Vigor
+Vulture
+Whispersmith
+</p>
+
+<div class="footer">
+  <h2>Footer</h2>
+
+Info gatherd from 
+<a href="https://huntshowdown.fandom.com/wiki/Traits" target="_blank" rel="noopener">Hunt:Showdown Fandom Traits</a></li>
+<ul>Download <a href="C:\Users\Alex\Documents/hunt.xlsx" download>weapon and trait list in excel</a>
+</ul>
+<ul>
+We'd love for you to <a href="mailto:contact@html.com" target="_blank" rel="noopener">get in touch</a> with us!
+</ul> 
+</div>
+
+
+
+
+</body>
+</html>
