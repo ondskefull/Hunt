@@ -1,11 +1,37 @@
-<?php $page = 'unlock-tree';?>
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/Mall1.css">
     <title>Hunt - Weapon unlock tree</title>
+    <div class="header">
+      <a href="index.html"><img src="images/hunt_logo.jpg" alt="Test image for hunt" height="200" width="500"></a>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"><img src="images/home3.png" alt="Home button" height="25" width="25">Traits<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="unlock-tree.html"><img src="images/tree-icon.png" alt="Weapon tree" height="25" width="25">Unlock tree</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Bloodline.html"><img src="images/OIP.jpg" height="25" width="25">Bloodline</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/ondskefull/Hunt/issues" target="_blank">Report issues</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
   </head>
   <body>
-    <?php include 'header.php'; ?>
     <div class="main">
       <h2>To unlock next Weapon variant, if nothing is specified, using any variant of that weapon will earn XP to unlock next one.</h2>
       <h2>Search Weapon tree</h2>
@@ -274,6 +300,5 @@
         </tr>
       </table>
     </div>
-    <?php include 'footer.php'; ?>
   </body>
 </html>
