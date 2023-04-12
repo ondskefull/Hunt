@@ -1,0 +1,1539 @@
+{
+    "traits": [
+        {
+            "Weapon": "Berthier Mle 1892",
+            "Trait 1": "Bulletgrubber",
+            "Trait 2": "Iron Sharpshooter",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "3/12",
+            "Ammo type": "Long"
+        },
+        {
+            "Weapon": "Berthier Mle 1892 Deadeye",
+            "Trait 1": "Bulletgrubber",
+            "Trait 2": "Deadeye Scopesmith",
+            "Trait 3": "Steady Aim",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "3/12",
+            "Ammo type": "Long"
+        },
+        {
+            "Weapon": "Berthier Mle 1892 Riposte",
+            "Trait 1": "Bulletgrubber",
+            "Trait 2": "Iron Sharpshooter",
+            "Trait 3": "Adrenalin",
+            "Trait 4": "Conduit",
+            "Trait 5": "",
+            "Bullets": "3/12",
+            "Ammo type": "Long"
+        },
+        {
+            "Weapon": "Bomb Lance",
+            "Trait 1": "Bulwark",
+            "Trait 2": "Conduit",
+            "Trait 3": "Adrenalin",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "1/5",
+            "Ammo type": "Special"
+        },
+        {
+            "Weapon": "Bornheim No. 3",
+            "Trait 1": "Bulletgrubber",
+            "Trait 2": "Ambidextrous if dual wield",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "5+1/10",
+            "Ammo type": "Compact"
+        },
+        {
+            "Weapon": "Bornheim No. 3 Extended",
+            "Trait 1": "Bulletgrubber",
+            "Trait 2": "",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "8+1/10",
+            "Ammo type": "Compact"
+        },
+        {
+            "Weapon": "Bornheim No. 3 Match",
+            "Trait 1": "Bulletgrubber",
+            "Trait 2": "",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "5+1/10",
+            "Ammo type": "Compact"
+        },
+        {
+            "Weapon": "Bow",
+            "Trait 1": "Blade Seer",
+            "Trait 2": "Dewclaw",
+            "Trait 3": "Hundred Hands",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "1/16",
+            "Ammo type": "Special"
+        },
+        {
+            "Weapon": "Caldwell 92 New Army",
+            "Trait 1": "Ambidextrous if dual wield",
+            "Trait 2": "",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "6/12",
+            "Ammo type": "Compact"
+        },
+        {
+            "Weapon": "Caldwell Conversion Pistol",
+            "Trait 1": "Ambidextrous if dual wield",
+            "Trait 2": "Fanning",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "6/18",
+            "Ammo type": "Compact"
+        },
+        {
+            "Weapon": "Caldwell Conversion Pistol Chain Pistol",
+            "Trait 1": "Ambidextrous if dual wield",
+            "Trait 2": "Fanning",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "17/18",
+            "Ammo type": "Compact"
+        },
+        {
+            "Weapon": "Caldwell Conversion Pistol Chain Pistol",
+            "Trait 1": "Ambidextrous if dual wield",
+            "Trait 2": "Fanning",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "6/9",
+            "Ammo type": "Long"
+        },
+        {
+            "Weapon": "Caldwell Pax",
+            "Trait 1": "Ambidextrous if dual wield",
+            "Trait 2": "Fanning",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "6/12",
+            "Ammo type": "Medium"
+        },
+        {
+            "Weapon": "Caldwell Pax Claw",
+            "Trait 1": "Ambidextrous if dual wield",
+            "Trait 2": "Fanning",
+            "Trait 3": "Adrenalin",
+            "Trait 4": "Conduit",
+            "Trait 5": "",
+            "Bullets": "6/12",
+            "Ammo type": "Medium"
+        },
+        {
+            "Weapon": "Caldwell Rival 78",
+            "Trait 1": "",
+            "Trait 2": "",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "2/8",
+            "Ammo type": "Shotgun"
+        },
+        {
+            "Weapon": "Caldwell Rival 78 Handcannon",
+            "Trait 1": "Quatermaster",
+            "Trait 2": "",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "2/8",
+            "Ammo type": "Shotgun"
+        },
+        {
+            "Weapon": "Cavalry Saber",
+            "Trait 1": "Conduit",
+            "Trait 2": "Adrenalin",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "",
+            "Ammo type": ""
+        },
+        {
+            "Weapon": "Combat Axe",
+            "Trait 1": "Conduit",
+            "Trait 2": "Adrenalin",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "",
+            "Ammo type": ""
+        },
+        {
+            "Weapon": "Crossbow",
+            "Trait 1": "Blade Seer",
+            "Trait 2": "olt Thrower",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "1/18",
+            "Ammo type": "Special"
+        },
+        {
+            "Weapon": "Hand Crossbow",
+            "Trait 1": "Blade Seer",
+            "Trait 2": "olt Thrower",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "1/12",
+            "Ammo type": "Special"
+        },
+        {
+            "Weapon": "Crown & King Auto-5",
+            "Trait 1": "",
+            "Trait 2": "",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "4+1/6",
+            "Ammo type": "Shotgun"
+        },
+        {
+            "Weapon": "Dolch 96",
+            "Trait 1": "Bulletgrubber",
+            "Trait 2": "Ambidextrous if dual wield",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "10/10",
+            "Ammo type": "Special"
+        },
+        {
+            "Weapon": "Dolch 96 Precision",
+            "Trait 1": "Bulletgrubber",
+            "Trait 2": "",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "10/10",
+            "Ammo type": "Special"
+        },
+        {
+            "Weapon": "Lebel 1886",
+            "Trait 1": "Bulletgrubber",
+            "Trait 2": "Iron Sharpshooter",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "10/5",
+            "Ammo type": "Long"
+        },
+        {
+            "Weapon": "Lebel 1886 Aperture",
+            "Trait 1": "Bulletgrubber",
+            "Trait 2": "Steady Aim<",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "10/5",
+            "Ammo type": "Long"
+        },
+        {
+            "Weapon": "Lebel 1886 Marksman",
+            "Trait 1": "Bulletgrubber",
+            "Trait 2": "Marksman Scopesmith",
+            "Trait 3": "Steady Aim",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "10/5",
+            "Ammo type": "Long"
+        },
+        {
+            "Weapon": "Lebel 1886 Talon",
+            "Trait 1": "Bulletgrubber",
+            "Trait 2": "Iron Sharpshooter",
+            "Trait 3": "Adrenalin",
+            "Trait 4": "Conduit",
+            "Trait 5": "",
+            "Bullets": "10/5",
+            "Ammo type": "Long"
+        },
+        {
+            "Weapon": "LeMat Mark II Revolver",
+            "Trait 1": "Ambidextrous if dual wield",
+            "Trait 2": "Fanning",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "Gun 9/18 | Shotgun 1/3",
+            "Ammo type": "Compact and Shotgun"
+        },
+        {
+            "Weapon": "LeMat Mark II Carbine",
+            "Trait 1": "",
+            "Trait 2": "",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "Gun 9/18 | Shotgun 1/5",
+            "Ammo type": "Compact and Shotgun"
+        },
+        {
+            "Weapon": "Machete",
+            "Trait 1": "Adrenalin",
+            "Trait 2": "Conduit",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "",
+            "Ammo type": ""
+        },
+        {
+            "Weapon": "Martini-Henry IC1",
+            "Trait 1": "Iron Sharpshooter",
+            "Trait 2": "",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "1/20",
+            "Ammo type": "Long"
+        },
+        {
+            "Weapon": "Martini-Henry IC1 Marksman",
+            "Trait 1": "Marksman Scopesmith",
+            "Trait 2": "Steady Aim",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "1/20",
+            "Ammo type": "Long"
+        },
+        {
+            "Weapon": "Martini-Henry IC1 Ironside",
+            "Trait 1": "Iron Sharpshoote",
+            "Trait 2": "",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "9+1/10",
+            "Ammo type": "Long"
+        },
+        {
+            "Weapon": "Mosin-Nagant M1891",
+            "Trait 1": "Bulletgrubber",
+            "Trait 2": "Iron Sharpshooter",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "5/10",
+            "Ammo type": "Long"
+        },
+        {
+            "Weapon": "Mosin-Nagant M1891 Avtomat",
+            "Trait 1": "Bulletgrubber",
+            "Trait 2": "Iron Sharpshooter",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "15/0",
+            "Ammo type": "Long"
+        },
+        {
+            "Weapon": "Mosin-Nagant M1891 Sniper",
+            "Trait 1": "Bulletgrubber",
+            "Trait 2": "Sniper Scopesmith",
+            "Trait 3": "Steady Aim",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "15/0",
+            "Ammo type": "Long"
+        },
+        {
+            "Weapon": "Mosin-Nagant M1891 Obrez",
+            "Trait 1": "Bulletgrubber",
+            "Trait 2": "",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "5/10",
+            "Ammo type": "Long"
+        },
+        {
+            "Weapon": "Mosin-Nagant M1891 Obrez Mace",
+            "Trait 1": "Bulletgrubber",
+            "Trait 2": "Adrenalin",
+            "Trait 3": "Conduit",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "5/10",
+            "Ammo type": "Long"
+        },
+        {
+            "Weapon": "Nagant M1895",
+            "Trait 1": "Ambidextrous if dual wield",
+            "Trait 2": "Fanning",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "7/21",
+            "Ammo type": "Compact"
+        },
+        {
+            "Weapon": "Nagant M1895 Silencer",
+            "Trait 1": "Ambidextrous if dual wield",
+            "Trait 2": "Fanning",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "7/21",
+            "Ammo type": "Compact"
+        },
+        {
+            "Weapon": "Nagant M1895 Deadeye",
+            "Trait 1": "Deadeye Scopesmith",
+            "Trait 2": "Steady Hand",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "7/21",
+            "Ammo type": "Compact"
+        },
+        {
+            "Weapon": "Nagant M1895 Precision",
+            "Trait 1": "",
+            "Trait 2": "",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "7/21",
+            "Ammo type": "Compact"
+        },
+        {
+            "Weapon": "Nagant M1895 Officer",
+            "Trait 1": "Ambidextrous if dual wield",
+            "Trait 2": "",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "7/14",
+            "Ammo type": "Compact"
+        },
+        {
+            "Weapon": "Nagant M1895 Officer Brawler",
+            "Trait 1": "Ambidextrous if dual wield",
+            "Trait 2": "Adrenalin",
+            "Trait 3": "Conduit",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "7/14",
+            "Ammo type": "Compact"
+        },
+        {
+            "Weapon": "Nagant M1895 Officer Carbine",
+            "Trait 1": "",
+            "Trait 2": "",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "7/14",
+            "Ammo type": "Compact"
+        },
+        {
+            "Weapon": "Nagant M1895 Officer Carbine Deadeye",
+            "Trait 1": "Deadeye Scopesmith",
+            "Trait 2": "Steady Hand",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "7/14",
+            "Ammo type": "Compact"
+        },
+        {
+            "Weapon": "Nitro Express Rifle",
+            "Trait 1": "Steady Aim",
+            "Trait 2": "",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "2/4",
+            "Ammo type": "Special"
+        },
+        {
+            "Weapon": "Romero 77",
+            "Trait 1": "",
+            "Trait 2": "",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "1/12",
+            "Ammo type": "Shotgun"
+        },
+        {
+            "Weapon": "Romero 77 Talon",
+            "Trait 1": "Adrenalin",
+            "Trait 2": "Conduit",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "1/12",
+            "Ammo type": "Shotgun"
+        },
+        {
+            "Weapon": "Romero 77 Handcannon",
+            "Trait 1": "Quatermaster",
+            "Trait 2": "Quatermaster",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "1/10",
+            "Ammo type": "Shotgun"
+        },
+        {
+            "Weapon": "Romero 77 Hatchet",
+            "Trait 1": "Adrenalin",
+            "Trait 2": "Conduit",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "1/10",
+            "Ammo type": "Shotgun"
+        },
+        {
+            "Weapon": "Scottfield Model 3",
+            "Trait 1": "Ambidextrous if dual wield",
+            "Trait 2": "Fanning",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "6/12",
+            "Ammo type": "Medium"
+        },
+        {
+            "Weapon": "Scottfield Model 3 Brawler",
+            "Trait 1": "Ambidextrous if dual wield",
+            "Trait 2": "Fanning",
+            "Trait 3": "Adrenalin",
+            "Trait 4": "Conduit",
+            "Trait 5": "",
+            "Bullets": "6/12",
+            "Ammo type": "Medium"
+        },
+        {
+            "Weapon": "Scottfield Model 3 Spitfire",
+            "Trait 1": "Ambidextrous if dual wield",
+            "Trait 2": "",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "6/12",
+            "Ammo type": "Medium"
+        },
+        {
+            "Weapon": "Scottfield Model 3 Swift",
+            "Trait 1": "Fanning",
+            "Trait 2": "",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "6/12",
+            "Ammo type": "Medium"
+        },
+        {
+            "Weapon": "Scottfield Model 3 Precision",
+            "Trait 1": "",
+            "Trait 2": "",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "6/12",
+            "Ammo type": "Medium"
+        },
+        {
+            "Weapon": "Sparks LRR",
+            "Trait 1": "Iron Sharpshooter",
+            "Trait 2": "",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "1/16",
+            "Ammo type": "Long"
+        },
+        {
+            "Weapon": "Sparks LRR Sniper",
+            "Trait 1": "Sniper Scopesmith",
+            "Trait 2": "Steady Aim",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "1/16",
+            "Ammo type": "Long"
+        },
+        {
+            "Weapon": "Sparks Pistol",
+            "Trait 1": "",
+            "Trait 2": "",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "1/14",
+            "Ammo type": "Long"
+        },
+        {
+            "Weapon": "Specter 1882",
+            "Trait 1": "Bulletgrubber",
+            "Trait 2": "Iron Devastator",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "4+1/10",
+            "Ammo type": "Shotgun"
+        },
+        {
+            "Weapon": "Specter 1882 Bayonet",
+            "Trait 1": "Bulletgrubber",
+            "Trait 2": "Iron Devastator",
+            "Trait 3": "Adrenalin",
+            "Trait 4": "Conduit",
+            "Trait 5": "",
+            "Bullets": "4+1/10",
+            "Ammo type": "Shotgun"
+        },
+        {
+            "Weapon": "Specter 1882 Compact",
+            "Trait 1": "Bulletgrubber",
+            "Trait 2": "Iron Devastator",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "3+1/8",
+            "Ammo type": "Shotgun"
+        },
+        {
+            "Weapon": "Springfield 1866",
+            "Trait 1": "Iron Sharpshooter",
+            "Trait 2": "",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "1/24",
+            "Ammo type": "Medium"
+        },
+        {
+            "Weapon": "Springfield 1866 Marksman",
+            "Trait 1": "Marksman Scopesmith",
+            "Trait 2": "Steady Aim",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "1/24",
+            "Ammo type": "Medium"
+        },
+        {
+            "Weapon": "Springfield 1866 Compact",
+            "Trait 1": "",
+            "Trait 2": "",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "1/24",
+            "Ammo type": "Medium"
+        },
+        {
+            "Weapon": "Springfield 1866 Compact Striker",
+            "Trait 1": "Arenalin",
+            "Trait 2": "Conduit",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "1/24",
+            "Ammo type": "Medium"
+        },
+        {
+            "Weapon": "Springfield 1866 Compact Deadeye",
+            "Trait 1": "Deadeye Scopesmith",
+            "Trait 2": "Steady Hand",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "1/24",
+            "Ammo type": "Medium"
+        },
+        {
+            "Weapon": "Springfield M1892 Krag",
+            "Trait 1": "Iron Sharpshooter",
+            "Trait 2": "",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "5+1/6",
+            "Ammo type": "Long"
+        },
+        {
+            "Weapon": "Vetterli 71 Karabiner",
+            "Trait 1": "Iron Sharpshooter",
+            "Trait 2": "",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "6+1/20",
+            "Ammo type": "Medium"
+        },
+        {
+            "Weapon": "Vetterli 71 Karabiner Bayonet",
+            "Trait 1": "Adrenalin",
+            "Trait 2": "Conduit",
+            "Trait 3": "Iron Sharpshooter",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "6+1/20",
+            "Ammo type": "Medium"
+        },
+        {
+            "Weapon": "Vetterli 71 Karabiner Deadeye",
+            "Trait 1": "Deadeye Scopesmith",
+            "Trait 2": "Steady Aim",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "6+1/20",
+            "Ammo type": "Medium"
+        },
+        {
+            "Weapon": "Vetterli 71 Karabiner Marksman",
+            "Trait 1": "Marksman Scopesmith",
+            "Trait 2": "Steady Aim",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "6+1/20",
+            "Ammo type": "Medium"
+        },
+        {
+            "Weapon": "Winfield 1887 Terminus",
+            "Trait 1": "Bulletgrubber",
+            "Trait 2": "Iron Repeater",
+            "Trait 3": "Levering",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "6+1/6",
+            "Ammo type": "Shotgun"
+        },
+        {
+            "Weapon": "Winfield 1887 Terminus Handcannon",
+            "Trait 1": "Bulletgrubber",
+            "Trait 2": "Iron Repeater",
+            "Trait 3": "Levering",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "5+1/4",
+            "Ammo type": "Shotgun"
+        },
+        {
+            "Weapon": "Winfield 1893 Slate",
+            "Trait 1": "Iron Devastator",
+            "Trait 2": "",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "5+1/6",
+            "Ammo type": "Shotgun"
+        },
+        {
+            "Weapon": "Winfield M1873",
+            "Trait 1": "Levering",
+            "Trait 2": "",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "15+1/20",
+            "Ammo type": "Compact"
+        },
+        {
+            "Weapon": "Winfield M1873 Aperture",
+            "Trait 1": "Levering",
+            "Trait 2": "Steady Aim",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "15+1/20",
+            "Ammo type": "Compact"
+        },
+        {
+            "Weapon": "Winfield M1873 Musket Bayonet",
+            "Trait 1": "Iron Repeater",
+            "Trait 2": "Levering",
+            "Trait 3": "Adrenalin",
+            "Trait 4": "Conduit",
+            "Trait 5": "",
+            "Bullets": "17+1/20",
+            "Ammo type": "Compact"
+        },
+        {
+            "Weapon": "Winfield M1873 Swift",
+            "Trait 1": "Iron Repeater",
+            "Trait 2": "Levering",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "15+1/20",
+            "Ammo type": "Compact"
+        },
+        {
+            "Weapon": "Winfield M1873 Musket Talon",
+            "Trait 1": "Iron Repeater",
+            "Trait 2": "Levering",
+            "Trait 3": "Adrenalin",
+            "Trait 4": "Conduit",
+            "Trait 5": "",
+            "Bullets": "15+1/20",
+            "Ammo type": "Compact"
+        },
+        {
+            "Weapon": "Winfield M1873C",
+            "Trait 1": "Iron Repeater",
+            "Trait 2": "Levering",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "7+1/28",
+            "Ammo type": "Compact"
+        },
+        {
+            "Weapon": "Winfield M1873C Silencer",
+            "Trait 1": "Iron Repeater",
+            "Trait 2": "Levering",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "7+1/28",
+            "Ammo type": "Compact"
+        },
+        {
+            "Weapon": "Winfield M1873C Marksman",
+            "Trait 1": "Levering",
+            "Trait 2": "Marksman Scopesmith",
+            "Trait 3": "Steady Aim",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "7+1/28",
+            "Ammo type": "Compact"
+        },
+        {
+            "Weapon": "Winfield M1873C Vandal",
+            "Trait 1": "Iron Repeater",
+            "Trait 2": "Levering",
+            "Trait 3": "",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "6+1/28",
+            "Ammo type": "Compact"
+        },
+        {
+            "Weapon": "Winfield M1873C Vandal Striker",
+            "Trait 1": "Iron Repeater",
+            "Trait 2": "Levering",
+            "Trait 3": "Adrenalin",
+            "Trait 4": "Conduit",
+            "Trait 5": "",
+            "Bullets": "6+1/28",
+            "Ammo type": "Compact"
+        },
+        {
+            "Weapon": "Winfield M1873C Vandal Deadeye",
+            "Trait 1": "Deadeye Scopesmith",
+            "Trait 2": "Levering",
+            "Trait 3": "Steady hand",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "6+1/28",
+            "Ammo type": "Compact"
+        },
+        {
+            "Weapon": "Winfield M1876 Centennial",
+            "Trait 1": "Iron Repeater",
+            "Trait 2": "Levering",
+            "Trait 3": "Sniper Scopesmith",
+            "Trait 4": "Poison Sense",
+            "Trait 5": "",
+            "Bullets": "9+1/12",
+            "Ammo type": "Medium"
+        },
+        {
+            "Weapon": "Winfield M1876 Centennial Sniper",
+            "Trait 1": "Levering",
+            "Trait 2": "Sniper Scopesmith",
+            "Trait 3": "Poison Sense",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "9+1/12",
+            "Ammo type": "Medium"
+        },
+        {
+            "Weapon": "Winfield M1876 Centennial Trauma",
+            "Trait 1": "Iron Repeater",
+            "Trait 2": "Levering",
+            "Trait 3": "Poison Sense",
+            "Trait 4": "Silent Killer",
+            "Trait 5": "Determination",
+            "Bullets": "9+1/12",
+            "Ammo type": "Medium"
+        },
+        {
+            "Weapon": "Winfield M1876 Centennial Shorty",
+            "Trait 1": "Levering",
+            "Trait 2": "Iron Repeater",
+            "Trait 3": "Poison Sense",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "5+1/12",
+            "Ammo type": "Medium"
+        },
+        {
+            "Weapon": "Winfield M1876 Centennial Shorty Silencer",
+            "Trait 1": "Levering",
+            "Trait 2": "Iron Repeater",
+            "Trait 3": "Poison Sense",
+            "Trait 4": "",
+            "Trait 5": "",
+            "Bullets": "5+1/12",
+            "Ammo type": "Medium"
+        }
+    ],
+    "bloodline": [
+      {
+        "Rank": "1",
+        "Unlock": [
+          "Combat axe",
+          "Dusters",
+          "Electric lamp",
+          "First aid kit",
+          "Knife",
+          "Nagant M1895",
+          "Romero 77",
+          "Springfield 1866",
+          "Spyglass",
+          "vitality shot weak",
+          "Winfield M1873C",
+          "Adrenaline",
+          "Magpie",
+          "Packmule",
+          "Determination",
+          "Hornskin",
+          "Salveskin",
+          "Decoys",
+          "Firebomb",
+          "Scottfield Model 3",
+          "Bloodless",
+          "Machete",
+          "Choke bombs"
+        ]
+      },
+      {
+        "Rank": "2",
+        "Unlock": [
+          "Antidote shot weak"
+        ]
+      },
+      {
+        "Rank": "3",
+        "Unlock": [
+          "Greyhound"
+        ]
+      },
+      {
+        "Rank": "4",
+        "Unlock": [
+          "Winfield 1887 Terminus"
+        ]
+      },
+      {
+        "Rank": "5",
+        "Unlock": [
+          "Iron repeater"
+        ]
+      },
+      {
+        "Rank": "6",
+        "Unlock": [
+          "Dynamite stick"
+        ]
+      },
+      {
+        "Rank": "7",
+        "Unlock": [
+          "Resilience"
+        ]
+      },
+      {
+        "Rank": "8",
+        "Unlock": [
+          "Levering"
+        ]
+      },
+      {
+        "Rank": "9",
+        "Unlock": [
+          "Martini-Henry IC1"
+        ]
+      },
+      {
+        "Rank": "10",
+        "Unlock": [
+          "Conduit"
+        ]
+      },
+      {
+        "Rank": "11",
+        "Unlock": [
+          "Doctor",
+          "2000 Dollar"
+        ]
+      },
+      {
+        "Rank": "12",
+        "Unlock": [
+          "Caldwell 92 New Army"
+        ]
+      },
+      {
+        "Rank": "13",
+        "Unlock": [
+          "Fanning"
+        ]
+      },
+      {
+        "Rank": "14",
+        "Unlock": [
+          "Vetterli 71 Karabiner"
+        ]
+      },
+      {
+        "Rank": "15",
+        "Unlock": [
+          "Stalker Beetle"
+        ]
+      },
+      {
+        "Rank": "16",
+        "Unlock": [
+          "Caldwell Rival 78"
+        ]
+      },
+      {
+        "Rank": "17",
+        "Unlock": [
+          "Iron sharpshooter"
+        ]
+      },
+      {
+        "Rank": "18",
+        "Unlock": [
+          "Caldwell Cónversion Pistol"
+        ]
+      },
+      {
+        "Rank": "19",
+        "Unlock": [
+          "Deadeye Scopesmith"
+        ]
+      },
+      {
+        "Rank": "20",
+        "Unlock": [
+          "Steady aim"
+        ]
+      },
+      {
+        "Rank": "21",
+        "Unlock": [
+          "Hand crossbow"
+        ]
+      },
+      {
+        "Rank": "22",
+        "Unlock": [
+          "Quartermaster"
+        ]
+      },
+      {
+        "Rank": "23",
+        "Unlock": [
+          "Ghoul"
+        ]
+      },
+      {
+        "Rank": "24",
+        "Unlock": [
+          "Winfield M1876 Cenntential"
+        ]
+      },
+      {
+        "Rank": "25",
+        "Unlock": [
+          "Marksman Scopesmith"
+        ]
+      },
+      {
+        "Rank": "26",
+        "Unlock": [
+          "Bolt thrower"
+        ]
+      },
+      {
+        "Rank": "27",
+        "Unlock": [
+          "Winfield M1873"
+        ]
+      },
+      {
+        "Rank": "28",
+        "Unlock": [
+          "Serpent"
+        ]
+      },
+      {
+        "Rank": "29",
+        "Unlock": [
+          "Necromancer"
+        ]
+      },
+      {
+        "Rank": "30",
+        "Unlock": [
+          "Caldwell Pax"
+        ]
+      },
+      {
+        "Rank": "31",
+        "Unlock": [
+          "Mithridatist"
+        ]
+      },
+      {
+        "Rank": "32",
+        "Unlock": [
+          "Sparks LRR"
+        ]
+      },
+      {
+        "Rank": "33",
+        "Unlock": [
+          "Beastface"
+        ]
+      },
+      {
+        "Rank": "34",
+        "Unlock": [
+          "2000 Dollars"
+        ]
+      },
+      {
+        "Rank": "35",
+        "Unlock": [
+          "Bornheim No. 3"
+        ]
+      },
+      {
+        "Rank": "36",
+        "Unlock": [
+          "Gator Legs"
+        ]
+      },
+      {
+        "Rank": "37",
+        "Unlock": [
+          "200 Dollars"
+        ]
+      },
+      {
+        "Rank": "38",
+        "Unlock": [
+          "Specter 1882"
+        ]
+      },
+      {
+        "Rank": "39",
+        "Unlock": [
+          "Steady hand"
+        ]
+      },
+      {
+        "Rank": "40",
+        "Unlock": [
+          "Concertina trip mine"
+        ]
+      },
+      {
+        "Rank": "41",
+        "Unlock": [
+          "Whispersmith"
+        ]
+      },
+      {
+        "Rank": "42",
+        "Unlock": [
+          "Cavalry Saber"
+        ]
+      },
+      {
+        "Rank": "43",
+        "Unlock": [
+          "Bulletgrubber"
+        ]
+      },
+      {
+        "Rank": "44",
+        "Unlock": [
+          "200 Dollars"
+        ]
+      },
+      {
+        "Rank": "45",
+        "Unlock": [
+          "Silent Killer"
+        ]
+      },
+      {
+        "Rank": "46",
+        "Unlock": [
+          "LeMat Mark II Revolver"
+        ]
+      },
+      {
+        "Rank": "47",
+        "Unlock": [
+          "Lightfoot"
+        ]
+      },
+      {
+        "Rank": "48",
+        "Unlock": [
+          "Berthier Mle 1892"
+        ]
+      },
+      {
+        "Rank": "49",
+        "Unlock": [
+          "Tomahawk"
+        ]
+      },
+      {
+        "Rank": "50",
+        "Unlock": [
+          "200 Dollars"
+        ]
+      },
+      {
+        "Rank": "51",
+        "Unlock": [
+          "Decoy supply"
+        ]
+      },
+      {
+        "Rank": "52",
+        "Unlock": [
+          "Lebel"
+        ]
+      },
+      {
+        "Rank": "53",
+        "Unlock": [
+          "Blade Seer"
+        ]
+      },
+      {
+        "Rank": "54",
+        "Unlock": [
+          "Hunting Bow"
+        ]
+      },
+      {
+        "Rank": "55",
+        "Unlock": [
+          "Dewclaw"
+        ]
+      },
+      {
+        "Rank": "56",
+        "Unlock": [
+          "Nagant M1895 Officer"
+        ]
+      },
+      {
+        "Rank": "57",
+        "Unlock": [
+          "undred Hands"
+        ]
+      },
+      {
+        "Rank": "58",
+        "Unlock": [
+          "200 Dollars"
+        ]
+      },
+      {
+        "Rank": "59",
+        "Unlock": [
+          "Bulwark"
+        ]
+      },
+      {
+        "Rank": "60",
+        "Unlock": [
+          "200 Dollars"
+        ]
+      },
+      {
+        "Rank": "61",
+        "Unlock": [
+          "Vigilant"
+        ]
+      },
+      {
+        "Rank": "62",
+        "Unlock": [
+          "Springfield M1892 Krag"
+        ]
+      },
+      {
+        "Rank": "63",
+        "Unlock": [
+          "Poacher"
+        ]
+      },
+      {
+        "Rank": "64",
+        "Unlock": [
+          "Frontiersman"
+        ]
+      },
+      {
+        "Rank": "65",
+        "Unlock": [
+          "Winfield 1893 Slate"
+        ]
+      },
+      {
+        "Rank": "66",
+        "Unlock": [
+          "Iron devastator"
+        ]
+      },
+      {
+        "Rank": "67",
+        "Unlock": [
+          "1000 Dollars"
+        ]
+      },
+      {
+        "Rank": "68",
+        "Unlock": [
+          "Poison Sense"
+        ]
+      },
+      {
+        "Rank": "69",
+        "Unlock": [
+          "Pitcher"
+        ]
+      },
+      {
+        "Rank": "70",
+        "Unlock": [
+          "200 Dollars"
+        ]
+      },
+      {
+        "Rank": "71",
+        "Unlock": [
+          "Dolch 96"
+        ]
+      },
+      {
+        "Rank": "72",
+        "Unlock": [
+          "Assailant"
+        ]
+      },
+      {
+        "Rank": "73",
+        "Unlock": [
+          "Ambidextrous"
+        ]
+      },
+      {
+        "Rank": "74",
+        "Unlock": [
+          "Ammo box"
+        ]
+      },
+      {
+        "Rank": "75",
+        "Unlock": [
+          "Mosin-Nagant M1891"
+        ]
+      },
+      {
+        "Rank": "76",
+        "Unlock": [
+          "Dauntless"
+        ]
+      },
+      {
+        "Rank": "77",
+        "Unlock": [
+          "200 Dollars"
+        ]
+      },
+      {
+        "Rank": "78",
+        "Unlock": [
+          "Bomb Lance"
+        ]
+      },
+      {
+        "Rank": "79",
+        "Unlock": [
+          "Vigor"
+        ]
+      },
+      {
+        "Rank": "80",
+        "Unlock": [
+          "Quad Derringer"
+        ]
+      },
+      {
+        "Rank": "81",
+        "Unlock": [
+          "Vulture"
+        ]
+      },
+      {
+        "Rank": "82",
+        "Unlock": [
+          "Crown & King Auto-5"
+        ]
+      },
+      {
+        "Rank": "83",
+        "Unlock": [
+          "Sniper Scopesmith"
+        ]
+      },
+      {
+        "Rank": "84",
+        "Unlock": [
+          "200 Dollars"
+        ]
+      },
+      {
+        "Rank": "85",
+        "Unlock": [
+          "Kiteskin"
+        ]
+      },
+      {
+        "Rank": "86",
+        "Unlock": [
+          "200 Dollars"
+        ]
+      },
+      {
+        "Rank": "87",
+        "Unlock": [
+          "Physician"
+        ]
+      },
+      {
+        "Rank": "88",
+        "Unlock": [
+          "200 Dollars"
+        ]
+      },
+      {
+        "Rank": "89",
+        "Unlock": [
+          "200 Dollars"
+        ]
+      },
+      {
+        "Rank": "90",
+        "Unlock": [
+          "Nitro Express Rifle"
+        ]
+      },
+      {
+        "Rank": "91",
+        "Unlock": [
+          "200 Dollars"
+        ]
+      },
+      {
+        "Rank": "92",
+        "Unlock": [
+          "200 Dollars"
+        ]
+      },
+      {
+        "Rank": "93",
+        "Unlock": [
+          "200 Dollars"
+        ]
+      },
+      {
+        "Rank": "94",
+        "Unlock": [
+          "200 Dollars"
+        ]
+      },
+      {
+        "Rank": "95",
+        "Unlock": [
+          "200 Dollars"
+        ]
+      },
+      {
+        "Rank": "96",
+        "Unlock": [
+          "200 Dollars"
+        ]
+      },
+      {
+        "Rank": "97",
+        "Unlock": [
+          "200 Dollars"
+        ]
+      },
+      {
+        "Rank": "98",
+        "Unlock": [
+          "200 Dollars"
+        ]
+      },
+      {
+        "Rank": "99",
+        "Unlock": [
+          "200 Dollars"
+        ]
+      },
+      {
+        "Rank": "100+",
+        "Unlock": [
+          "200 Dollars every 5000 exp"
+        ]
+      }
+    ]
+}
