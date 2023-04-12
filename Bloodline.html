@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-
-  </head>
-  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -40,21 +37,33 @@
       <label for="myInput">Search:</label>
       <input id="myInput" onkeyup="searchTable()" type="text" placeholder="" aria-label="Search">
       <div class="table-responsive">
-        <?php
-          // Create HTML table
-          echo '<table id="myTable" class="table table-hover table-bordered">';
-          echo '<thead><tr><th>Rank</th><th>Unlock</th></tr></thead>';
-          echo '<tbody>';
-          foreach ($php_data['bloodline'] as $item) {
-              echo '<tr>';
-              echo '<td>' . $item['Rank'] . '</td>';
-              echo '<td>' . implode(', ', $item['Unlock']) . '</td>';
-              echo '</tr>';
-          }
-          echo '</tbody>';
-          echo '</table>';
-        ?>
-      </div>
+        <table id="myTable" class="table table-striped table-hover table-bordered">
+          <thead>
+            <tr>
+              <th>Rank</th>
+              <th>Unlock</th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+        <script>
+          fetch("data.json")
+            .then(response => response.json())
+            .then(data => {
+              const tableBody = document.querySelector("#myTable tbody");
+  
+              data.bloodline.forEach(item => {
+                const row = tableBody.insertRow();
+  
+                const rankCell = row.insertCell();
+                rankCell.textContent = item.Rank;
+  
+                const UnlockCell = row.insertCell();
+                UnlockCell.textContent = item.Unlock;
+              });
+            });
+        </script>
       </div>
     </div>
   </body>
