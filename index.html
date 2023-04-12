@@ -47,26 +47,13 @@
               <th>Trait 4</th>
               <th>Trait 5</th>
               <th>Bullets</th>
-              <th>Ammo type</th>
+              <th>Ammo Type</th>
             </tr>
           </thead>
           <tbody>
-          <?php foreach ($php_data['traits'] as $item): ?>
-              <tr>
-                  <td><?php echo $item['Weapon']; ?></td>
-                  <td><?php echo $item['Trait 1']; ?></td>
-                  <td><?php echo $item['Trait 2']; ?></td>
-                  <td><?php echo $item['Trait 3']; ?></td>
-                  <td><?php echo $item['Trait 4']; ?></td>
-                  <td><?php echo $item['Trait 5']; ?></td>
-                  <td><?php echo $item['Bullets']; ?></td>
-                  <td><?php echo $item['Ammo type']; ?></td>
-              </tr>
-            <?php endforeach; ?>
           </tbody>
         </table>
       </div>
-
       <p>This website have the Weapons and Traits associated with each other from the game Hunt:Showdown:</p>
       <ul>
         <li>Find Weapons in Hunt:Showdown</li>
@@ -74,6 +61,40 @@
         <li>Work in progress</li>
       </ul>
     </div>
-    <?php include 'footer.php'; ?>
+    <script>
+        fetch("data.json")
+          .then(response => response.json())
+          .then(data => {
+            const tableBody = document.querySelector("#myTable tbody");
+
+            data.traits.forEach(item => {
+              const row = tableBody.insertRow();
+
+              const weaponCell = row.insertCell();
+              weaponCell.textContent = item.Weapon;
+
+              const TraitOneCell = row.insertCell();
+              TraitOneCell.textContent = item.TraitOne;
+
+              const TraitTwoCell = row.insertCell();
+              TraitTwoCell.textContent = item.TraitTwo;
+
+              const TraitTreeCell = row.insertCell();
+              TraitTreeCell.textContent = item.TraitTree;
+
+              const TraitFourCell = row.insertCell();
+              TraitFourCell.textContent = item.TraitFour;
+
+              const TraitFiveCell = row.insertCell();
+              TraitFiveCell.textContent = item.TraitFive;
+
+              const bulletCell = row.insertCell();
+              bulletCell.textContent = item.Bullets;
+
+              const AmmoTypeCell = row.insertCell();
+              AmmoTypeCell.textContent = item.AmmoType;
+            });
+          });
+    </script>
   </body>
 </html>
