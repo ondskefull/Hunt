@@ -1,0 +1,1052 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <link rel="stylesheet" href="mall1.css">
+
+<title>Hunt - weapon traits finder</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+
+<div class="header">
+  <h1>Hunt: Trait Finder</h1>
+  <p>Find which traits suits your weapon.</p>
+  <a href="index.html"><img src="hunt_logo.jpg" alt="Test image for hunt" height="200" width="500">
+</a>
+</div>
+
+<div class="navbar">
+  <a href="index.html"><img src="home3.png" alt="Home button" height="25" width="25">Traits</a>
+  <a href="unlock-tree.html"><img src="tree-icon.png" alt="Weapon tree" height="25" width="25">Weapon unlocks</a>
+  <a href="Bloodline.html"><img src="Blood.jpg" height="25" width="25">Bloodline</a>
+</div>
+
+
+  <div class="main">
+    <h2>Search Weapon or Trait and get the associated item</h2>
+<input id='myInput' onkeyup='searchTable()' type='text' placeholder='Search..'>
+
+<table class="tb" id="myTable">
+  <tr>
+    <th>Weapon</th>
+    <th>Trait 1</th>
+    <th>Trait 2</th>
+    <th>Trait 3</th>
+    <th>Trait 4</th>
+    <th>Trait 5</th>
+    <th>Bullets</th>
+    <th>Ammo type</th>
+  </tr>
+  <tr>
+    <td>Berthier Mle 1892</td>
+    <td>Bulletgrabber</td>
+    <td>Iron Sharpshooter</td>
+    <td></td> 
+    <td></td>
+    <td></td>
+    <td>3/12</td>
+    <td>Long</td>
+  </tr>
+  <tr>
+    <td>Berthier Mle 1892 Deadeye</td>
+    <td>Bulletgrabber</td>
+    <td>Deadeye Scopesmith</td>
+    <td>Steady Aim</td> 
+    <td></td>
+    <td></td>
+    <td>3/12</td>
+    <td>Long</td>
+  </tr>
+  <tr>
+    <td>Berthier Mle 1892 Riposte</td>
+    <td>Bulletgrabber</td>
+    <td>Iron Sharpshooter</td>
+    <td>Adrenalin</td> 
+    <td>Conduit</td>
+    <td></td>
+    <td>3/12</td>
+    <td>Long</td>
+  </tr>
+  <tr>
+    <td>Bomb Lance</td>
+    <td>Bulwark</td>
+    <td>Conduit</td>
+    <td>Adrenalin</td>
+    <td></td>
+    <td></td>
+    <td>1/5</td>
+    <td>Special</td>
+  </tr>
+  <tr>
+    <td>Bornheim No. 3</td>
+    <td>Bulletgrabber</td>
+    <td>Ambidextrous</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>5+1/10</td>
+    <td>Compact</td> 
+  </tr>
+  <tr>
+    <td>Bornheim No. 3 Extended</td>
+    <td>Bulletgrabber</td>
+    <td>Ambidextrous</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>8+1/10</td>
+    <td>Compact</td> 
+  </tr>  
+  <tr>
+    <td>Bornheim No. 3 Match</td>
+    <td>Bulletgrabber</td>
+    <td>Ambidextrous</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>5+1/10</td>
+    <td>Compact</td> 
+  </tr> 
+  <tr>
+    <td>Bow</td>
+    <td>Blade Seer</td>
+    <td>Dewclaw</td>
+    <td>Hundred Hands</td> 
+    <td></td>
+    <td></td>
+    <td>1/16</td>
+    <td>Special</td>
+  </tr> 
+  <tr>
+    <td>Caldwell 92 New Army</td>
+    <td>Ambidextrous</td> 
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>6/12</td>
+    <td>Compact</td>
+  </tr> 
+  <tr>
+    <td>Caldwell Conversion Pistol</td>
+    <td>Ambidextrous</td>
+    <td>Fanning</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>6/18</td> 
+    <td>Compact</td>
+  </tr> 
+  <tr>
+    <td>Caldwell Conversion Pistol Chain Pistol</td>
+    <td>Ambidextrous</td>
+    <td>Fanning</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>17/18</td> 
+    <td>Compact</td>
+  </tr> 
+  <tr>
+    <td>Caldwell Conversion Uppercut</td>
+    <td>Ambidextrous</td>
+    <td>Fanning</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>6/9</td> 
+    <td>Long</td>
+  </tr> 
+  <tr>
+    <td>Caldwell Pax</td>
+    <td>Ambidextrous</td>
+    <td>Fanning</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>6/12</td>
+    <td>Medium</td> 
+  </tr> 
+  <tr>
+    <td>Caldwell Pax Claw</td>
+    <td>Ambidextrous</td>
+    <td>Fanning</td>
+    <td>Adrenalin</td>
+    <td>Conduit</td>
+    <td></td>
+    <td>6/12</td>
+    <td>Medium</td> 
+  </tr> 
+  <tr>
+    <td>Caldwell Rival 78</td>
+    <td>N/A</td> 
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>2/8</td>
+    <td>Shotgun</td>
+  </tr> 
+  <tr>
+    <td>Caldwell Rival 78 Handcannon</td>
+    <td>Quatermaster</td> 
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>2/6</td>
+    <td>Shotgun</td>
+  </tr> 
+  <tr>
+    <td>Cavalry Saber</td>
+    <td>Conduit</td> 
+    <td>Adrenalin</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr> 
+  <tr>
+    <td>Combat Axe</td>
+    <td>Conduit</td>
+    <td>Adrenalin</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td> 
+  </tr> 
+  <tr>
+    <td>Crossbow</td>
+    <td>Blade Seer</td>
+    <td>Bolt Thrower</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>1/18</td>
+    <td>Special</td> 
+  </tr> 
+  <tr>
+    <td>Hand Crossbow</td>
+    <td>Blade Seer</td>
+    <td>Bolt Thrower</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>1/12</td>
+    <td>Special</td> 
+  </tr> 
+  <tr>
+    <td>Crown & King Auto-5</td>
+    <td>N/A</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>4+1/6</td>
+    <td>Shotgun</td> 
+  </tr> 
+  <tr>
+    <td>Dolch 96</td>
+    <td>Bulletgrabber</td>
+    <td>Ambidextrous</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>10/10</td>
+    <td>Special</td> 
+  </tr> 
+  <tr>
+    <td>Dolch 96 Precision</td>
+    <td>Bulletgrabber</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>10/10</td>
+    <td>Special</td> 
+  </tr> 
+  <tr>
+    <td>Lebel 1886</td>
+    <td>Bulletgrabber</td>
+    <td>Iron Sharpshooter</td>
+    <td></td>
+    <td></td> 
+    <td></td>
+    <td>10/5</td>
+    <td>Long</td>
+  </tr> 
+  <tr>
+    <td>Lebel 1886 Aperture</td>
+    <td>Bulletgrabber</td>
+    <td>Steady Aim</td>
+    <td></td>
+    <td></td> 
+    <td></td>
+    <td>10/5</td>
+    <td>Long</td>
+  </tr> 
+  <tr>
+    <td>Lebel 1886 Marksman</td>
+    <td>Bulletgrabber</td>
+    <td>Marksman Scopesmith</td>
+    <td>Steady Aim</td>
+    <td></td> 
+    <td></td>
+    <td>10/5</td>
+    <td>Long</td>
+  </tr> 
+  <tr>
+    <td>Lebel 1886 Talon</td>
+    <td>Bulletgrabber</td>
+    <td>Iron Sharpshooter</td>
+    <td>Adrenalin</td>
+    <td>Conduit</td> 
+    <td></td>
+    <td>10/5</td>
+    <td>Long</td>
+  </tr> 
+  <tr>
+    <td>LeMat Mark II Revolver</td>
+    <td>Ambidextrous</td>
+    <td>Fanning</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Gun 9/18 | Shotgun 1/3</td>
+    <td>Compact and Shotgun</td> 
+  </tr> 
+  <tr>
+    <td>LeMat Mark II Carbine</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Gun 9/18 | Shotgun 1/5</td>
+    <td>Compact and Shotgun</td> 
+  </tr> 
+  <tr>
+    <td>Machete</td>
+    <td>Adrenalin</td>
+    <td>Conduit</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td> 
+  </tr> 
+  <tr>
+    <td>Martini-Henry IC1</td>
+    <td>Iron Sharpshooter</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>1/20</td> 
+    <td>Long</td>
+  </tr>
+  <tr>
+    <td>Martini-Henry IC1 Marksman</td>
+    <td>Marksman Scopesmith</td>
+    <td>Steady Aim</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>1/20</td> 
+    <td>Long</td>
+  </tr>
+  <tr>
+    <td>Martini-Henry IC1 Ironside</td>
+    <td>Iron Sharpshooter</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>9+1/10</td> 
+    <td>Long</td>
+  </tr>
+  <tr>
+    <td>Mosin-Nagant M1891</td>
+    <td>Bulletgrabber</td>
+    <td>Iron Sharpshooter</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>5/10</td> 
+    <td>Long</td>
+  </tr>
+  <tr>
+    <td>Mosin-Nagant M1891 Avtomat</td>
+    <td>Bulletgrabber</td>
+    <td>Iron Sharpshooter</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>15/0</td> 
+    <td>Long</td>
+  </tr>
+  <tr>
+    <td>Mosin-Nagant M1891 Sniper</td>
+    <td>Bulletgrabber</td>
+    <td>Sniper Scopesmith</td>
+    <td>Steady Aim</td>
+    <td></td>
+    <td></td>
+    <td>5/10</td> 
+    <td>Long</td>
+  </tr>
+  <tr>
+    <td>Mosin-Nagant M1891 Obrez</td>
+    <td>Bulletgrabber</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>5/10</td> 
+    <td>Long</td>
+  </tr>
+    <tr>
+    <td>Mosin-Nagant M1891 Drum</td>
+    <td>Bulletgrabber</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>15/0</td> 
+    <td>Long</td>
+  </tr>
+  <tr>
+    <td>Mosin-Nagant M1891 Obrez Mace</td>
+    <td>Bulletgrabber</td>
+    <td>Adrenalin</td>
+    <td>Conduit</td>
+    <td></td>
+    <td></td>
+    <td>5/10</td> 
+    <td>Long</td>
+  </tr>
+  <tr>
+    <td>Nagant M1895</td>
+    <td>Ambidextrous</td>
+    <td>Fanning</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>7/21</td>
+    <td>Compact</td> 
+  </tr> 
+  <tr>
+    <td>Nagant M1895 Silencer</td>
+    <td>Ambidextrous</td>
+    <td>Fanning</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>7/21</td>
+    <td>Compact</td> 
+  </tr> 
+  <tr>
+    <td>Nagant M1895 Deadeye</td>
+    <td>Deadeye Scopesmith</td>
+    <td>Steady Hand</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>7/21</td>
+    <td>Compact</td> 
+  </tr> 
+  <tr>
+    <td>Nagant M1895 Precision</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>7/21</td>
+    <td>Compact</td> 
+  </tr> 
+  <tr>
+    <td>Nagant M1895 Officer</td>
+    <td>Ambidextrous</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>7/14</td>
+    <td>Compact</td> 
+  </tr> 
+  <tr>
+    <td>Nagant M1895 Officer Brawler</td>
+    <td>Ambidextrous</td>
+    <td>Adrenalin</td>
+    <td>Conduit</td>
+    <td></td>
+    <td></td>
+    <td>7/14</td>
+    <td>Compact</td> 
+  </tr> 
+  <tr>
+    <td>Nagant M1895 Officer Carbine</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>7/14</td>
+    <td>Compact</td> 
+  </tr> 
+  <tr>
+    <td>Nagant M1895 Officer Carbine Deadeye</td>
+    <td>Deadeye Scopesmith</td>
+    <td>Steady Hand</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>7/14</td>
+    <td>Compact</td> 
+  </tr> 
+  <tr>
+    <td>Nitro Express Rifle</td>
+    <td>Steady Aim</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>2/4</td>
+    <td>Special</td> 
+  </tr> 
+  <tr>
+    <td>Romero 77</td>
+    <td>/NA</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>1/12</td>
+    <td>Shotgun</td> 
+  </tr> 
+  <tr>
+    <td>Romero 77 Talon</td>
+    <td>Adrenalin</td>
+    <td>Conduit</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>1/12</td>
+    <td>Shotgun</td> 
+  </tr> 
+   <tr>
+    <td>Romero 77 Handcannon</td>
+    <td>Quatermaster</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>1/10</td>
+    <td>Shotgun</td> 
+  </tr> 
+   <tr>
+    <td>Romero 77 Hatchet</td>
+    <td>Adrenalin</td>
+    <td>Conduit</td>
+    <td>Quatermaster</td>
+    <td></td>
+    <td></td>
+    <td>1/10</td>
+    <td>Shotgun</td> 
+  </tr> 
+  <tr>
+    <td>Scottfield Model 3</td>
+    <td>Ambidextrous</td>
+    <td>Fanning</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>6/12</td> 
+    <td>Medium</td>
+  </tr> 
+  <tr>
+    <td>Scottfield Model 3 Brawler</td>
+    <td>Ambidextrous</td>
+    <td>Fanning</td>
+    <td>Adrenalin</td>
+    <td>Conduit</td>
+    <td></td>
+    <td>6/12</td> 
+    <td>Medium</td>
+  </tr> 
+  <tr>
+    <td>Scottfield Model 3 Spitfire</td>
+    <td>Ambidextrous</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>6/12</td> 
+    <td>Medium</td>
+  </tr> 
+  <tr>
+    <td>Scottfield Model 3 Swift</td>
+    <td>Fanning</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>6/12</td> 
+    <td>Medium</td>
+  </tr> 
+  <tr>
+    <td>Scottfield Model 3 Precision</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>6/12</td> 
+    <td>Medium</td>
+  </tr> 
+  <tr>
+    <td>Sparks LRR</td>
+    <td>Iron Sharpshooter</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>1/16</td> 
+    <td>Long</td>
+  </tr> 
+  <tr>
+    <td>Sparks LRR Sniper</td>
+    <td>Sniper Scopesmith</td>
+    <td>Steady Aim</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>1/16</td> 
+    <td>Long</td>
+  </tr> 
+  <tr>
+    <td>Sparks Pistol</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>1/14</td> 
+    <td>Long</td>
+  </tr> 
+  <tr>
+    <td>Specter 1882</td>
+    <td>Bulletgrabber</td>
+    <td>Iron Devastator</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>4+1/10</td> 
+    <td>Shotgun</td>
+  </tr> 
+  <tr>
+    <td>Specter 1882 Bayonet</td>
+    <td>Bulletgrabber</td>
+    <td>Iron Devastator</td>
+    <td>Adrenalin</td>
+    <td>Conduit</td>
+    <td></td>
+    <td>4+1/10</td> 
+    <td>Shotgun</td>
+  </tr>
+  <tr>
+    <td>Specter 1882 Compact</td>
+    <td>Bulletgrabber</td>
+    <td>Iron Devastator</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>3+1/8</td> 
+    <td>Shotgun</td>
+  </tr>  
+  <tr>
+    <td>Springfield 1866</td>
+    <td>Iron Sharpshooter</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>1/24</td> 
+    <td>Medium</td>
+  </tr> 
+  <tr>
+    <td>Springfield 1866 Marksman</td>
+    <td>Marksman Scopesmith</td>
+    <td>Steady Aim</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>1/24</td> 
+    <td>Medium</td>
+  </tr>
+  <tr>
+    <td>Springfield 1866 Compact</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>1/24</td> 
+    <td>Medium</td>
+  </tr>  
+  <tr>
+    <td>Springfield 1866 Compact Striker</td>
+    <td>Arenalin</td>
+    <td>Conduit</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>1/24</td> 
+    <td>Medium</td>
+  </tr>  
+  <tr>
+    <td>Springfield 1866 Compact Deadeye</td>
+    <td>Deadeye Scopesmith</td>
+    <td>Steady Hand</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>1/24</td> 
+    <td>Medium</td>
+  </tr> 
+  <tr>
+    <td>Springfield M1892 Krag</td>
+    <td>Iron Sharpshooter</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>5+1/6</td> 
+    <td>Long</td>
+  </tr> 
+  <tr>
+    <td>Vetterli 71 Karabiner</td>
+    <td>Iron Sharpshooter</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>6+1/20</td> 
+    <td>Medium</td>
+  </tr> 
+  <tr>
+    <td>Vetterli 71 Karabiner Bayonet</td>
+    <td>Adrenalin</td>
+    <td>Conduit</td>
+    <td>Iron Sharpshooter</td>
+    <td></td>
+    <td></td>
+    <td>6+1/20</td> 
+    <td>Medium</td>
+  </tr>
+  <tr>
+    <td>Vetterli 71 Karabiner Deadeye</td>
+    <td>Deadeye Scopesmith</td>
+    <td>Steady Aim</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>6+1/20</td> 
+    <td>Medium</td>
+  </tr> 
+  <tr>
+    <td>Vetterli 71 Karabiner Marksman</td>
+    <td>Marksman Scopesmith</td>
+    <td>Steady Aim</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>6+1/20</td> 
+    <td>Medium</td>
+  </tr> 
+  <tr>
+    <td>Winfield 1887 Terminus</td>
+    <td>Bulletgrabber</td>
+    <td>Iron Repeater</td>
+    <td>Levering</td>
+    <td></td>
+    <td></td>
+    <td>6+1/6</td>
+    <td>Shotgun</td> 
+  </tr> 
+  <tr>
+    <td>Winfield 1887 Terminus Handcannon</td>
+    <td>Bulletgrabber</td>
+    <td>Iron Repeater</td>
+    <td>Levering</td>
+    <td></td>
+    <td></td>
+    <td>5+1/4</td>
+    <td>Shotgun</td> 
+  </tr> 
+  <tr>
+    <td>Winfield 1893 Slate</td>
+    <td>Iron Devastator</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>5+1/6</td>
+    <td>Shotgun</td> 
+  </tr> 
+  <tr>
+    <td>Winfield M1873</td>
+    <td>Levering</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>15+1/20</td>
+    <td>Compact</td> 
+  </tr>
+  <tr>
+    <td>Winfield M1873 Aperture</td>
+    <td>Levering</td>
+    <td>Steady Aim</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>15+1/20</td>
+    <td>Compact</td> 
+  </tr>
+  <tr>
+    <td>Winfield M1873 Musket Bayonet</td>
+    <td>Iron Repeater</td>
+    <td>Levering</td>
+    <td>Adrenalin</td>
+    <td>Conduit</td>
+    <td></td>
+    <td>17+1/20</td>
+    <td>Compact</td> 
+  </tr>
+  <tr>
+    <td>Winfield M1873 Swift</td>
+    <td>Iron Repeater</td>
+    <td>Levering</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>15+1/20</td>
+    <td>Compact</td> 
+  </tr>  
+  <tr>
+    <td>Winfield M1873 Musket Talon</td>
+    <td>Iron Repeater</td>
+    <td>Levering</td>
+    <td>Adrenalin</td>
+    <td>Conduit</td>
+    <td></td>
+    <td>15+1/20</td>
+    <td>Compact</td> 
+  </tr>  
+  <tr>
+    <td>Winfield M1873C</td>
+    <td>Iron Repeater</td>
+    <td>Levering</td>
+    <td></td>
+    <td></td> 
+    <td></td>
+    <td>7+1/28</td>
+    <td>Compact</td>
+  </tr> 
+  <tr>
+    <td>Winfield M1873C Silencer</td>
+    <td>Iron Repeater</td>
+    <td>Levering</td>
+    <td></td>
+    <td></td> 
+    <td></td>
+    <td>7+1/28</td>
+    <td>Compact</td>
+  </tr> 
+  <tr>
+    <td>Winfield M1873C Marksman</td>
+    <td>Levering</td>
+    <td>Marksman Scopesmith</td>
+    <td>Steady Aim</td>
+    <td></td> 
+    <td></td>
+    <td>7+1/28</td>
+    <td>Compact</td>
+  </tr> 
+  <tr>
+    <td>Winfield M1873C Vandal</td>
+    <td>Iron Repeater</td>
+    <td>Levering</td>
+    <td></td>
+    <td></td> 
+    <td></td>
+    <td>6+1/28</td>
+    <td>Compact</td>
+  </tr>
+  <tr>
+    <td>Winfield M1873C Vandal Striker</td>
+    <td>Iron Repeater</td>
+    <td>Levering</td>
+    <td>Adrenalin</td>
+    <td>Conduit</td> 
+    <td></td>
+    <td>6+1/28</td>
+    <td>Compact</td>
+  </tr>
+  <tr>
+    <td>Winfield M1873C Vandal Deadeye</td>
+    <td>Deadeye Scopesmith</td>
+    <td>Levering</td>
+    <td>Steady hand</td>
+    <td></td> 
+    <td></td>
+    <td>6+1/28</td>
+    <td>Compact</td>
+  </tr>   
+  <tr>
+    <td>Winfield M1876 Centennial</td>
+    <td>Iron Repeater</td>
+    <td>Levering</td>
+    <td>Sniper Scopesmith</td>
+    <td>Poison Sense</td> 
+    <td></td>
+    <td>9+1/12</td>
+    <td>Medium</td>
+  </tr> 
+  <tr>
+    <td>Winfield M1876 Centennial Sniper</td>
+    <td>Levering</td>
+    <td>Sniper Scopesmith</td>
+    <td>Poison Sense</td>
+    <td></td> 
+    <td></td>
+    <td>9+1/12</td>
+    <td>Medium</td>
+  </tr> 
+  <tr>
+    <td>Winfield M1876 Centennial Trauma</td>
+    <td>Iron Repeater</td>
+    <td>Levering</td>
+    <td>Poison Sense</td>
+    <td></td> 
+    <td></td>
+    <td>9+1/12</td>
+    <td>Medium</td>
+  </tr> 
+</table>
+
+  </div>
+ </div>
+
+<script>
+function myFunction() {
+  // Declare variables
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("mySearch");
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myMenu");
+  li = ul.getElementsByTagName("li");
+
+  // Loop through all list items, and hide those who don't match the search query
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+</script>
+
+
+<p>This website have the Weapons and Traits associated with each other from the game Hunt:Showdown:</p>
+<ul>
+<li>Find Weapons in Hunt:Showdown</li>
+<li>Each trait that works well with that weapon will be listed</li>
+<li>Work in progress</li>
+</ul>
+
+<style>
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 50%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+</style>
+
+
+
+<script>
+function searchTable() {
+    var input, filter, found, table, tr, td, i, j;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    table = document.getElementById("myTable");
+    tr = table.getElementsByTagName("tr");
+    for (i = 0; i < tr.length; i++) {
+        td = tr[i].getElementsByTagName("td");
+        for (j = 0; j < td.length; j++) {
+            if (td[j].innerHTML.toUpperCase().indexOf(filter) > -1) {
+                found = true;
+            }
+        }
+        if (found) {
+            tr[i].style.display = "";
+            found = false;
+        } else {
+            tr[i].style.display = "none";
+        }
+    }
+}
+</script>
+
+
+
+<p>Packmule
+Physician
+Pitcher
+Poacher
+Poison Sense
+Quatermaster
+Resilience
+Salveskin
+Serpent
+Silent Killer
+Sniper Scopesmith
+Steady Aim
+Steady Hand
+Tomahawk
+Vigilant
+Vigor
+Vulture
+Whispersmith
+</p>
+
+<div class="footer">
+  <h2>Info gatherd from</h2>
+
+<a href="https://huntshowdown.fandom.com/wiki/Traits" target="_blank" rel="noopener">Hunt:Showdown Fandom Traits</a></li>
+ 
+</div>
+
+
+
+
+</body>
+</html>
